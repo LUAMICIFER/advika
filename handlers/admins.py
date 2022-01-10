@@ -13,23 +13,23 @@ from pytgcalls.types.input_stream import InputStream
 
 ACTV_CALLS = []
 
-@Client.on_message(command(["pause"]) & other_filters)
+@Client.on_message(command(["sanki"]) & other_filters)
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("▶️ 𝐏𝐚𝐮𝐬𝐞 😔🥀")
+    await message.reply_text("ruko jara sabar karo")
 
 
-@Client.on_message(command(["resume"]) & other_filters)
+@Client.on_message(command(["simple"]) & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text("⏸ 𝐑𝐞𝐬𝐮𝐦𝐞 ❤️")
+    await message.reply_text("hum karte hai prabandh")
 
 
-@Client.on_message(command(["end"]) & other_filters)
+@Client.on_message(command(["jiya"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -39,9 +39,9 @@ async def stop(_, message: Message):
         pass
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("❌ 𝐒𝐭𝐨𝐩 🛑 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 ✨")
+    await message.reply_text("i am not intereseted yaar mujhe sunna hi nahi h")
 
-@Client.on_message(command(["skip"]) & other_filters)
+@Client.on_message(command(["futu"]) & other_filters)
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
@@ -50,7 +50,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("❗ 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 😔  𝐈𝐬 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🎶 𝐓𝐨 𝐒𝐤𝐢𝐩 🥀")
+        await message.reply_text("song name tera baap chor kr gaya tha ki teri  ma")
     else:
         queues.task_done(chat_id)
         
@@ -65,4 +65,4 @@ async def skip(_, message: Message):
                     ),
                 ),
             )
-    await message.reply_text("➡️ 𝐒𝐤𝐢𝐩 💫 𝐓𝐡𝐞 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 ✨ 𝐒𝐨𝐧𝐠 🥀")
+    await message.reply_text("chal chal nikal awe")
