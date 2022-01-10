@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾 ❱...**")
+    lel = await message.reply("🔎 ye mai kar leta hu aap team bana lo")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -106,7 +106,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "TRISHAxMUSIC"
+        user.first_name = "ADVIKA"
     usar = user
     wew = usar.id
     try:
@@ -130,7 +130,7 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ @BlackStorm_Owner ❤️🥀 :) ")
+                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 JOIN YOUR GROUP TO REHNDO FIR :- ✨ @ADVIK_24 ❤️🥀 :) ")
     try:
         await USER.get_chat(chid)
     except:
@@ -148,7 +148,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀**"
+                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} IS SAJJAN KO KYA TAKLEEF HAI BHAI**"
             )
 
         file_name = get_file_name(audio)
@@ -163,21 +163,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Tenacious_Feelings")
+                            url=f"https://t.me/")
                ],
                [
                     InlineKeyboardButton(
                             text="𝐊𝐢𝐧𝐠 🤴",
-                            url=f"https://t.me/BlackStorm_owner"),
+                            url=f"https://t.me/ADVIK_24"),
                             
                     InlineKeyboardButton(
                             text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/ssasybeb")
+                            url=f"https://t.me/ONCTXRXR")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/Bestie_Empire")
+                            url=f"https://t.me/")
                    
                 ]
             ]
@@ -216,21 +216,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Tenacious_Feelings")
+                            url=f"https://t.me/")
                ],
                [
                     InlineKeyboardButton(
                             text="𝐊𝐢𝐧𝐠 🤴",
-                            url=f"https://t.me/blackstorm_owner"),
+                            url=f"https://t.me/ADVIK_24"),
                             
                     InlineKeyboardButton(
                             text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/ssasybeb")
+                            url=f"https://t.me/ONCTXRXR")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/bestie_emp")
+                            url=f"https://t.me/")
                    
                 ]
             ]
@@ -246,21 +246,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Tenacious_Feelings")
+                            url=f"https://t.me/")
                ],
                [
                     InlineKeyboardButton(
                             text="𝐊𝐢𝐧𝐠 🤴",
-                            url=f"https://t.me/blackstorm_owner"),
+                            url=f"https://t.me/ADVIK_24"),
                             
                     InlineKeyboardButton(
                             text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/ssasybeb")
+                            url=f"https://t.me/ONCTXRXR")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/bestie_empire")
+                            url=f"https://t.me/")
                    
                 ]
             ]
@@ -268,7 +268,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀**"
+                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT}IS SAJJAN KO KYA TAKLEEF HAI BHAI🥀**"
             )
             return
         requested_by = message.from_user.first_name
@@ -279,7 +279,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
             )
-        await lel.edit("**🎵  𝙏𝙍𝙄𝙎𝙃𝘼  𝐈𝐬 🔊 𝐑𝐞𝐚𝐝𝐲 𝐓𝐨 𝐅𝐮𝐜𝐤 👅 𝐓𝐡𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🥀**")
+        await lel.edit("**🎵 ADVUIKA IS READY TO PLAY THE MUSIC🥀**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -304,7 +304,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🌸° 𝐒𝐨𝐧𝐠 🎸 𝐍𝐨𝐭 😒 𝐅𝐨𝐮𝐧𝐝 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 ° 🥀.**"
+                "**🌸°YE RAJ BHI USI KE SATH CHALA GAYA 🎸😒 ° 🥀.**"
             )
             print(str(e))
             return
@@ -314,21 +314,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Tenacious_Feelings")
+                            url=f"https://t.me/")
                ],
                [
                     InlineKeyboardButton(
                             text="𝐊𝐢𝐧𝐠 🤴",
-                            url=f"https://t.me/blackstorm_owner"),
+                            url=f"https://t.me/ADVIK_24"),
                             
                     InlineKeyboardButton(
                             text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/ssasybeb")
+                            url=f"https://t.me/ONCTXRXR")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/bestie_empire")
+                            url=f"https://t.me/")
                    
                 ]
             ]
@@ -336,7 +336,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀**"
+                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT}IS SAJJAN KO KYA TAKLEEF HAI BHAI**"
             )
             return
         requested_by = message.from_user.first_name
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾🥀 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="****OO RUKO YAAR MARNE TO DO** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🎶 `{}`...**".format(
+            caption="**CHALIYE SHURU KARTE HAI.format(
         message.chat.title
         ), )
 
